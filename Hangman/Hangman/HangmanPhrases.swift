@@ -23,5 +23,67 @@ class HangmanPhrases {
         let index = Int(arc4random_uniform(UInt32(phrases.count)))
         return phrases.object(at: index) as! String
     }
-    
 }
+
+//public class thisPhrase {
+//    
+//    public var phrase : String
+//    
+//    init(phrase: String) {
+//        self.phrase = phrase
+//    }
+//
+//
+//    func updateUnderscore() -> String {
+//        var emptyString = ""
+//        for i in self.phrase.characters {
+//            if i == " " {
+//                emptyString = emptyString + "   "}
+//            else {
+//                emptyString = emptyString + " _ "
+//        }
+//        }
+//            return emptyString
+//    }
+//    
+//    
+//    func checkLetter(myCharacter: Character) -> Array<Int> {
+//        var indexValue = 0
+//        var indexArray = [Int]()
+//            for i in self.phrase.characters {
+//                if i == myCharacter{
+//                    indexArray.append(indexValue)
+//                    indexValue += 1
+//                }
+//        }
+//    return indexArray
+//    }
+//    
+//    
+//    
+//    func putLettersIn(myCharacter: Character, alreadyThere: String, indexedArray: Array<Int> ) -> String {
+//        var chars = Array(alreadyThere.characters)
+//        for i in indexedArray {
+//            chars[i] = myCharacter
+//        }
+//        let modifiedString = String(chars)
+//        return modifiedString
+//    
+//    }
+//    
+//    
+//    func checkLetterTrue(myCharacter: Character) -> Bool {
+//        var letterIsThere = false
+//        for i in self.phrase.characters {
+//            if i == myCharacter {
+//            letterIsThere = true
+//            }
+//        }
+//        return letterIsThere
+//    }
+
+    
+    
+    
+
+
